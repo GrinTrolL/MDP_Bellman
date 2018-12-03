@@ -11,6 +11,7 @@ class MapSize:
 
 def GetGamma():
     while True:
+        print("Podaj wartość gammy:")
         input = float(sys.stdin.readline());
         if isinstance(input, float):
             if input >= 0.0 and input <= 1.0:
